@@ -6,6 +6,7 @@ arch=('any')
 url="https://github.com/sandorex/plymouth-theme-arch-charge-white"
 license=('GPL')
 depends=('plymouth')
+md5sums=('SKIP')
 source=('git+git://github.com/sandorex/plymouth-theme-arch-charge-white')
 install='plymouth-theme-arch-charge-white.install'
 
