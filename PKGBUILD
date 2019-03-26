@@ -1,7 +1,7 @@
 pkgname=plymouth-theme-arch-charge-white
 pkgver=20190326
 pkgrel=1
-pkgdesc="A Plymouth theme like fedora but with an Arch logo."
+pkgdesc="Plymouth theme like fedora but with an Arch logo."
 arch=('any')
 url="https://github.com/sandorex/plymouth-theme-arch-charge-white"
 license=('GPL')
