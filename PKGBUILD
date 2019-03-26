@@ -1,0 +1,16 @@
+pkgname=plymouth-theme-arch-charge-white
+pkgver=20190326
+pkgrel=1
+pkgdesc="A Plymouth theme like fedora but with an Arch logo."
+arch=('any')
+url="https://github.com/sandorex/plymouth-theme-arch-charge-white"
+license=('GPL')
+depends=('plymouth')
+source=('git+git://github.com/sandorex/plymouth-theme-arch-charge-white')
+install='plymouth-theme-arch-charge-white.install'
+
+package() {
+    cd $srcdir/${pkgname}
+    mkdir -p $pkgdir/usr/share/plymouth/themes/arch-charge-white
+    install -Dm644 * "${pkgdir}"/usr/share/plymouth/themes/arch-charge-white
+}
