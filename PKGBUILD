@@ -13,5 +13,5 @@ install='plymouth-theme-arch-charge-white.install'
 package() {
     cd $srcdir/${pkgname}
     mkdir -p $pkgdir/usr/share/plymouth/themes/arch-charge-white
-    install -Dm644 * "${pkgdir}"/usr/share/plymouth/themes/arch-charge-white
+    install -Dm644 arch-charge-white/* "${pkgdir}"/usr/share/plymouth/themes/arch-charge-white
 }
